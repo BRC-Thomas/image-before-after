@@ -16,7 +16,35 @@
 
 <body>
   <main>
+    <article class="article">
+      <header class="header">
+        <h1 class="header__h1">Budapest before after WW2 picture</h1>
+        <p class="header__subtitle">
+          Click and drag on the image to disclose the content.
+        </p>
+      </header>
+    </article>
+    <section>
+      <div class="disclosure">
+        
+        <div class="disclosure_img-container">
+          <img src="/images/budapest-recent.jpg" alt="recent budapest view" class="disclose_img">
+        </div>
 
+        <div class="disclosure_img-container disclosure_img-container-2">
+          <img src="/images/budapest-destroyed.jpg" alt="old budapest view" class="disclose_img">
+        </div>
+
+        <div class="disclosure_widget">
+          <div class="disclosure_line">
+            <div class="disclosure_line-circle">
+              <img src="/images/hand.svg" alt="" class="disclosure_line-circle-img">
+            </div>
+          </div>
+          <input type="range" min="0" max="100" value="50" class="disclosure_range">
+        </div>
+      </div>
+    </section>
   </main>
   <script src="script.js"></script>
 </body>
